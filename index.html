@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a815ba948d.js" crossorigin="anonymous"></script>
+</head>
+<body onload="getDate()">
+    <div class="container">
+        <div class="date-field">
+            <h2 id="header-today">Saturday</h2>
+            <p id="header-date">3 March 2023</p>
+        </div>
+        <div class="input-field p3-l flex m25">
+            <input type="text" class="new-task-input" placeholder="What do you want to do?"></input>
+            <button type="submit" class="add-button"><b>+</b></button>
+        </div>
+        <div class="task-field">
+            <ul class="task-list"></ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
